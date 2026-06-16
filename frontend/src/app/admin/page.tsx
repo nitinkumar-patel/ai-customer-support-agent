@@ -148,7 +148,7 @@ function SessionsTab() {
             <div className="text-center py-12 text-text-col-tertiary text-sm px-4">
               <p className="text-2xl mb-2">📭</p>
               No sessions yet.{" "}
-              <a href="/" className="text-accent hover:text-accent-light transition-colors">Start a chat</a>
+              <a href="/chat" className="text-accent hover:text-accent-light transition-colors">Start a chat</a>
             </div>
           ) : (
             sessionList.map((s) => (
